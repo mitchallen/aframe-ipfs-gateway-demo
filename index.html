@@ -29,13 +29,18 @@
         <a-entity id="maze-cube-3x3x3" 
             gltf-model="url(https://olive-flying-parrotfish-580.mypinata.cloud/ipfs/Qmck1wi5hCErdreYLzjYKn6SCuRtHX7Gv4AFGXJe3qRogo)" 
             rotation="0 0 0" position="0.0 1.5 -2.5" 
-            scale="0.25 0.25 0.25">
+            scale="0.12 0.12 0.12"
+            animation="property: rotation; to: 360 360 360; loop: true; dur: 10000"
+            >
         </a-entity>>
 
         use gltf-model
         <a-entity id="satellite" 
             gltf-model="url(https://olive-flying-parrotfish-580.mypinata.cloud/ipfs/QmY49HSawcsytkvNMN1X3FcSA6MpsCaXWvrEcKj1WLJjiE)" rotation="0 0 0" position="0.0 1.5 -2.5" 
-            scale="0.75 0.75 0.74"></a-entity>
+            scale="0.5 0.5 0.5"
+            animation="property: rotation; to: 360 360 360; loop: true; dur: 30000"
+            >
+        </a-entity>
 
         <!-- <a-obj-model rotation="0 0 0" position="0.0 1.5 -2.5" 
             scale="1.0 1.0 1.0" src="#marble-alpha" 
