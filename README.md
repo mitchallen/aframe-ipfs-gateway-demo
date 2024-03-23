@@ -1,6 +1,10 @@
 aframe-ipfs-gateway-demo
 ==
 
+## Demo
+
+* https://mitchallen.github.io/aframe-ipfs-gateway-demo/
+
 ## Usage
 
 ```sh
