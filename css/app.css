@@ -86,18 +86,20 @@ body {
   
   @supports (-webkit-touch-callout: none) {
   
-    /* CSS specific to iOS devices */
-    .button-toolbar {
-      padding: 15px 15px;
-      font-size: 18px;
-      border: 1px solid green;
+    @media (max-width: 600px) {
+      /* CSS specific to iOS devices */
+      .button-toolbar {
+        padding: 15px 15px;
+        font-size: 18px;
+        border: 1px solid green;
+      }
     }
   }
   
   @supports not (-webkit-touch-callout: none) {
   
     /* CSS for other than iOS devices */
-    @media (max-width: 1200px) {
+    @media (max-width: 600px) {
       .button-toolbar {
         padding: 15px 15px;
         font-size: 18px;
