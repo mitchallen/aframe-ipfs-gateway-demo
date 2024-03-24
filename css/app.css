@@ -97,7 +97,7 @@ body {
   @supports not (-webkit-touch-callout: none) {
   
     /* CSS for other than iOS devices */
-    @media (max-width: 600px) {
+    @media (max-width: 1200px) {
       .button-toolbar {
         padding: 15px 15px;
         font-size: 18px;
