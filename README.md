@@ -20,4 +20,5 @@ python3 -m http.server 8000
 
 * https://aframe.io/docs/1.5.0/components/gltf-model.html
 * https://github.com/CesiumGS/obj2gltf 
+* https://fonts.google.com/icons 
 
