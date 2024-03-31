@@ -4,21 +4,25 @@
 //     iframe.style.display = (iframe.style.display === 'none') ? 'block' : 'none';
 // });
 
-document.getElementById('btnForward').addEventListener('click', function () {
+document.getElementById('btnForward').addEventListener('click', function (event) {
     moveForward(-1,0);
+    event.preventDefault();
 });
 
-document.getElementById('btnBack').addEventListener('click', function () {
+document.getElementById('btnBack').addEventListener('click', function (event) {
     // move('z', 1);
     moveForward(1.0);
+    event.preventDefault();
 });
 
-document.getElementById('btnTurnLeft').addEventListener('click', function () {
+document.getElementById('btnTurnLeft').addEventListener('click', function (event) {
     turn(-45);
+    event.preventDefault();
 });
 
-document.getElementById('btnTurnRight').addEventListener('click', function () {
+document.getElementById('btnTurnRight').addEventListener('click', function (event) {
     turn(45);
+    event.preventDefault();
 });
 
 function moveForward(speed) {
