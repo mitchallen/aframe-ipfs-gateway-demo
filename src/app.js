@@ -15,15 +15,15 @@ document.getElementById('btnBack').addEventListener('click', function (event) {
     event.preventDefault();
 });
 
-document.getElementById('btnTurnLeft').addEventListener('click', function (event) {
-    turn(-45);
-    event.preventDefault();
-});
+// document.getElementById('btnTurnLeft').addEventListener('click', function (event) {
+//     turn(-45);
+//     event.preventDefault();
+// });
 
-document.getElementById('btnTurnRight').addEventListener('click', function (event) {
-    turn(45);
-    event.preventDefault();
-});
+// document.getElementById('btnTurnRight').addEventListener('click', function (event) {
+//     turn(45);
+//     event.preventDefault();
+// });
 
 function moveForward(speed) {
     const direction = new THREE.Vector3;

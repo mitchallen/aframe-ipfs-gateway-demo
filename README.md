@@ -8,6 +8,10 @@ aframe-ipfs-gateway-demo
 ## Usage
 
 ```sh
+make serve
+```
+
+```sh
 python3 -m http.server 8000
 ```
 
