@@ -22,7 +22,10 @@ python3 -m http.server 8000
 
 ## References
 
+* https://aframe.io/docs/1.5.0/components/raycaster.html
 * https://aframe.io/docs/1.5.0/components/gltf-model.html
 * https://github.com/CesiumGS/obj2gltf 
 * https://fonts.google.com/icons 
+* https://stackoverflow.com/questions/75802203/simple-way-to-create-ability-to-grab-objects-without-using-third-party-componentn
+
 
