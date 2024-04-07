@@ -3,6 +3,8 @@
 <head>
     <title>aframe ipfs demo</title>
     <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.misc.min.js"></script>
+    <script src="https://unpkg.com/super-hands@^3.0.3/dist/super-hands.min.js"></script>
     <meta charset="UTF-8">
     <meta name="description" content="aframe demo">
     <meta name="keywords" content="AFrame, JavaScript">
@@ -67,11 +69,18 @@
         </a-box>
         <a-entity raycaster="objects: .box" cursor></a-entity> -->
 
+        <a-entity sphere-collider="objects: a-box" super-hands hand-controls="hand: left"
+            laser-controls="hand: left"
+        ></a-entity>
+        <a-entity sphere-collider="objects: a-box" super-hands hand-controls="hand: right"></a-entity>
+        <!-- hover & drag-drop won't have any obvious effect without some additional event handlers or components. See the examples page for more -->
+        <a-box hoverable grabbable stretchable draggable droppable color="blue" position="0 0 -1"
+  
         <!-- Define Oculus Touch controllers -->
-        <a-entity id="leftHand" collider-check laser-controls="hand: left" oculus-touch-controls="hand: left" grabber>
+        <!-- <a-entity id="leftHand" collider-check laser-controls="hand: left" oculus-touch-controls="hand: left" grabber>
             <!-- <a-entity collider-check raycaster="objects: .collidable; showLine:true;"></a-entity> -->
         </a-entity>
-        <a-entity id="rightHand" oculus-touch-controls="hand: right"></a-entity>
+        <a-entity id="rightHand" oculus-touch-controls="hand: right"></a-entity> -->
         <!-- Add a box in the scene that can be interacted with -->
 
         <!-- <a-entity id="right-hand" laser-controls="hand: right" oculus-touch-controls="hand: right"

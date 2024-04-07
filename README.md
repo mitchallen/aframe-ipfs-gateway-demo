@@ -22,6 +22,7 @@ python3 -m http.server 8000
 
 ## References
 
+* https://github.com/c-frame/aframe-super-hands-component 
 * https://aframe.io/docs/1.5.0/components/raycaster.html
 * https://aframe.io/docs/1.5.0/components/gltf-model.html
 * https://github.com/CesiumGS/obj2gltf 
